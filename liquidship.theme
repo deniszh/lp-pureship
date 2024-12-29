@@ -28,8 +28,8 @@ _lp_liquidship_theme_activate() {
     LP_COLOR_NOWRITE="${RED}🔒"
     lp_terminal_format 105 -1 1 0 15 -1
     # LP_MARK_TERRAFORM="💠" # TODO in LP
-    LP_MARK_ADAPTER=" "
-    LP_MARK_BATTERY=" "
+    LP_MARK_ADAPTER="🔌 "
+    LP_MARK_BATTERY="🔋 "
 
     LP_COLOR_PATH="$CYAN" # Starship use bold cyan, but that hides LP's hint on directories.
     LP_COLOR_PATH_LAST_DIR="$BOLD_CYAN"
@@ -41,7 +41,7 @@ _lp_liquidship_theme_activate() {
     # Starship Config
     LP_LIQUIDSHIP_MARK_SSH="🌐"
     LP_LIQUIDSHIP_MARK_SUDO="!"
-    LP_LIQUIDSHIP_MARK_MUX="🖽 "
+    LP_LIQUIDSHIP_MARK_MUX="🖼 "
 
     _lp_user
     local -i user_type="$?"
